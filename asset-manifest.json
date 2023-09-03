@@ -1,0 +1,26 @@
+{
+  "files": {
+    "main.css": "/Projects/static/css/main.76c4ee05.css",
+    "main.js": "/Projects/static/js/main.1331fb64.js",
+    "static/js/787.c4e7f8f9.chunk.js": "/Projects/static/js/787.c4e7f8f9.chunk.js",
+    "static/media/Article.jpg": "/Projects/static/media/Article.46efd077683b7047df08.jpg",
+    "static/media/doublecheck.png": "/Projects/static/media/doublecheck.1ce8d11d31ce767d4b24.png",
+    "static/media/Facial_Concentrate.png": "/Projects/static/media/Facial_Concentrate.c0f807950794adf20f94.png",
+    "static/media/Home_Murasaki_Aromatique.webp": "/Projects/static/media/Home_Murasaki_Aromatique.4abb479470c75868601e.webp",
+    "static/media/1025.png": "/Projects/static/media/1025.21864a585e702dae486f.png",
+    "static/media/Home_Bronze_Incense.webp": "/Projects/static/media/Home_Bronze_Incense.660f74c1377499ddc8eb.webp",
+    "static/media/Parsley-Seed-Facial-Cleanser.webp": "/Projects/static/media/Parsley-Seed-Facial-Cleanser.077b5046d436e220c0ee.webp",
+    "static/media/Home_Aganice.webp": "/Projects/static/media/Home_Aganice.01e65cee2c3b9f21aebd.webp",
+    "static/media/Camellia-Nut-Facial.webp": "/Projects/static/media/Camellia-Nut-Facial.70688181cf63d47cc8f9.webp",
+    "static/media/Parsley_Seed_Anti-Oxidant.webp": "/Projects/static/media/Parsley_Seed_Anti-Oxidant.122575276ee34bcf0244.webp",
+    "static/media/640.png": "/Projects/static/media/640.5eb651bf6b27025084ed.png",
+    "index.html": "/Projects/index.html",
+    "main.76c4ee05.css.map": "/Projects/static/css/main.76c4ee05.css.map",
+    "main.1331fb64.js.map": "/Projects/static/js/main.1331fb64.js.map",
+    "787.c4e7f8f9.chunk.js.map": "/Projects/static/js/787.c4e7f8f9.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.76c4ee05.css",
+    "static/js/main.1331fb64.js"
+  ]
+}
