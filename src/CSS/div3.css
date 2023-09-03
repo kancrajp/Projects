@@ -1,0 +1,33 @@
+#div3_first{
+    background-color: #FFFEF2;
+    display:'flex';
+}
+
+#div3_second{
+    font-family: 'Inter, sans-serif';
+    font-Weight:'500'
+}
+
+#div3_third{
+    flex: '0.70';
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+
+#div3_button{
+    background-color: transparent; 
+    border: 1px solid #D6D5CC;
+    color:black; 
+    padding: 10px 20px; 
+    cursor: pointer;
+    width: 80%;
+    text-align: start;
+    font-weight: 600;
+    margin-top: 2ch;
+    padding: 2.5ch;
+    font-size: 14px;
+    display: flex;
+    justify-content: space-between;
+  } 

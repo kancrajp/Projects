@@ -1,0 +1,74 @@
+/* Add styles for the slider-container, slider, and slide */
+.slider-container {
+    background-color: #FFFEF2;
+    position: relative;
+    display: flex;
+    flex-wrap: nowrap; /* Ensure that slides stay in a single row */
+    overflow-x: hidden; /* Hide overflow content */
+    align-items: center; /* Vertically center slides */
+  }
+  
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease; /* Smooth slide transition */
+  }
+  
+  .slide {
+    flex: 0 0 33.333%; /* Adjust the width of each slide for 3 slides in a row */
+    padding: 10px; /* Add spacing between slides */
+    text-align: center;
+  }
+  
+  .slide img {
+    max-width: 100%; /* Ensure images don't exceed their container width */
+  }
+  
+  /* Add styles for navigation buttons */
+  .slider-button {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5); /* Semi-transparent background color */
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 18px;
+    padding: 10px;
+    z-index: 1;
+  }
+  
+  .slider-button.prev {
+    left: 0;
+  }
+  
+  .slider-button.next {
+    right: 0;
+  }
+
+  .slider {
+    display: flex;
+    transition: transform 0.3s ease;
+    overflow: hidden; /* Ensure content doesn't overflow */
+  }
+  
+  .slide {
+    flex: 0 0 33.333%;
+    transition: transform 0.3s ease;
+    text-align: center;
+    padding: 10px;
+  }
+  
+  /* Add styles for the sliding effect */
+  .slider.sliding {
+    animation: slideIn 0.3s ease; /* Keyframe animation for sliding effect */
+  }
+  
+  @keyframes slideIn {
+    0% {
+      transform: translateX(100%);
+    }
+    100% {
+      transform: translateX(0);
+    }
+  }
+

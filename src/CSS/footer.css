@@ -1,0 +1,81 @@
+#input_footer{
+    padding: 1.3ch;
+    width: 90%;
+    background-color :#333333 ;
+    font-family: 'Inter, sans-serif';
+    color: #FFFEF2;
+    font-size: medium;
+    border: 1px solid
+}
+
+#input_footer::placeholder {
+    color: white; /* Change the color to white */
+  }
+
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    font-family: 'Inter, sans-serif';
+    align-items: flex-start;
+  }
+
+  .footer-columns {
+    flex-basis: calc(30% - 20px); /* 25% width with spacing */
+    padding: 0 10px;
+    margin-left: 5px;
+  }
+  
+  .footer-column {
+    flex-basis: calc(20% - 20px); /* 25% width with spacing */
+    padding: 0 10px;
+  }
+  
+  .footer-column h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-column ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .footer-column ul li {
+    margin-bottom: 5px;
+  }
+  
+  .footer-column a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .footer-column-large {
+    flex-basis: calc(50% - 20px); /* 50% width with spacing for the larger column */
+  }
+  
+  .footer-line {
+    border: none;
+    height: 2px; /* Adjust the height of the line as needed */
+    background-color: white;
+    margin-bottom: 2ch;
+    margin-top: 5px; /* Adjust the margin to control the space between the text and the line */
+  }
+
+
+  .footer-links {
+    list-style: none; /* Remove bullet points */
+    /* padding: 0; Remove default padding */
+  }
+  
+  .footer-links li {
+    margin-bottom: 20ch; /* Add spacing between list items */
+  }
+  .footer-column ul li{
+    margin-bottom: 17px;
+  }
+  
+ 
